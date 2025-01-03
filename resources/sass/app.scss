@@ -1,0 +1,13 @@
+// Place @use at the top
+@use 'variables';
+
+// Any other @use statements, like Bootstrap, should also come after @use
+@use 'bootstrap/scss/bootstrap' as bootstrap;
+
+// Your custom styles
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Your main styles
+body {
+  font-family: 'Nunito', sans-serif;
+}
